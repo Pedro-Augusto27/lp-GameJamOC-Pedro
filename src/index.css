@@ -1,0 +1,12 @@
+/* 
+    Cores sugeridas: 
+    grafite #111827 · verde #22c55e · ciano #06b6d4
+*/
+
+@import "tailwindcss";
+
+@theme {
+    --color-cabecalho: #111827;
+    --color-fundoMain: #fff;
+    --color-mentores: #383248; /* Duas opções de cor: #383248 ou darkgreen */
+}
