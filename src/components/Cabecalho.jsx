@@ -28,7 +28,7 @@ function Cabecalho() {
 
                     <a
                         href="#inscricao"
-                        className="px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-bold text-sm md:text-base transition-colors"
+                        className="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-bold text-sm md:text-base transition-colors"
                     >
                         Inscreva-se
                     </a>
