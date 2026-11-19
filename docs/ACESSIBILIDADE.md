@@ -18,7 +18,7 @@
 ## Depois
 - Nota do Lighthouse (mobile): 78
 - O que foi corrigido: 
-    1. Foi alterado alguns arquivos que foram alterados como:
+    1. Alguns arquivos que foram alterados como:
         - Cabeçalho.jsx
         - Hero.jsx
         - Inscricao.jsx
