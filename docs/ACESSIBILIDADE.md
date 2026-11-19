@@ -16,7 +16,7 @@
     - Com `Enter`: Nada aconteceu.
 
 ## Depois
-- Nota do Lighthouse (mobile): 78
+- Nota do Lighthouse (mobile): 100
 - O que foi corrigido: 
     1. Alguns arquivos que foram alterados como:
         - Cabeçalho.jsx
