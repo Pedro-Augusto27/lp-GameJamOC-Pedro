@@ -1,12 +1,35 @@
-/* 
-    Cores sugeridas: 
-    grafite #111827 · verde #22c55e · ciano #06b6d4
-*/
-
 @import "tailwindcss";
 
 @theme {
     --color-cabecalho: #111827;
-    --color-fundoMain: #fff;
-    --color-mentores: #383248; /* Duas opções de cor: #383248 ou darkgreen */
+    --color-fundoMain: #ffffff;
+    --color-mentores: #383248;
+    --color-destaque: #7e22ce;
+    --color-destaque-hover: #6b21a8;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+:focus-visible {
+    outline: 3px solid #facc15;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 5px #111827;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
