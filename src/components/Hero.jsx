@@ -1,5 +1,6 @@
 import imagemHero from '../assets/gamejam.jpg';
 import { evento } from '../data/evento';
+import BotaoLembrete from './BotaoLembrete';
 
 function Hero() {
     return (
@@ -28,6 +29,8 @@ function Hero() {
                     >
                         Quero me inscrever
                     </a>
+                    
+                    <BotaoLembrete />
                 </div>
             </div>
         </section>

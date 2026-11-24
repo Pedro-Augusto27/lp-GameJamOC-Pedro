@@ -9,12 +9,14 @@ function Cabecalho() {
 
     return (
         <>
+            {/*
             <a
                 href="#conteudo-principal"
                 className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-3 focus:bg-destaque focus:text-white focus:font-bold focus:rounded-lg focus:shadow-lg"
             >
                 Pular para o conteúdo
             </a>
+            */}
 
             <header className="sticky top-0 z-50 bg-cabecalho/95 backdrop-blur-sm border-b border-gray-800 px-4 py-4 text-white">
                 <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">

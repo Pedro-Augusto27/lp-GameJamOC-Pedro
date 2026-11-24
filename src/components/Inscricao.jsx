@@ -24,10 +24,10 @@ function Inscricao() {
                 tabIndex={-1}
                 className="max-w-4xl mx-auto my-16 px-6 py-14 bg-indigo-950 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800 rounded-3xl shadow-2xl text-white text-center"
             >
-                <h2 className="text-2xl font-bold text-green-800 mb-3">
+                <h2 className="text-2xl font-bold text-green-500 mb-3">
                     Inscrição realizada!
                 </h2>
-                <p className="text-gray-800 text-lg" role="status">
+                <p className="text-white text-lg" role="status">
                     Pronto! Vamos avisar {email} sobre a próxima edição da GameJam OC.
                 </p>
             </section>
