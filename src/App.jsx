@@ -5,6 +5,7 @@ import Programacao from './components/Programacao';
 import Mentor from './components/Mentor';
 import PerguntasFrequentes from './components/PerguntasFrequentes';
 import Inscricao from './components/Inscricao';
+import Grafico from './components/Grafico';
 import Rodape from './components/Rodape';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Programacao />
         <Inscricao />
         <PerguntasFrequentes />
+        <Grafico />
       </main>
       <Rodape />
     </>
